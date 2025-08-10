@@ -17,7 +17,7 @@
         @endif
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <section class="bg-gray-50 dark:bg-gray-900">
+        <section class="bg-gray-50 dark:bg-gray-900" style="background: rgb(17, 24, 39) !important;">
             @if ($clockedOut)
                 <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                     <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
